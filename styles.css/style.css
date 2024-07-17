@@ -1,0 +1,48 @@
+/* reset */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserra", sans-serif;
+}
+
+p {
+  margin-bottom: 0.8rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+/*  font-family: "Liu Jian Mao Cao", cursive;*/
+/* vp +header*/
+
+.vp.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+ padding: 1rem 2rem;
+ background-color: #333;
+}
+header a {
+   color: white;
+}
+.vp-logo{
+   font-size: 1.8rem;
+   margin-bottom: 0;
+   font-family: "Dancing Script", cursive;
+}
+.vp-logo i {
+color: #f1c40f;
+}
